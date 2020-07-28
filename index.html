@@ -1,0 +1,72 @@
+<head>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Library</h1>
+            <button class='newbook'>New Book</button>
+        </header>
+        <table>            
+            <tr>
+                <th class='title'>Book Title</th>
+                <th class='author'>Author</th>
+                <th class='pages'>Pages</th>
+                <th class='status'>Status</th>
+                <th class='remove'></th>
+            </tr>
+            <!--
+            <tr>
+                <td>The Hobbit</td>
+                <td>J.R.R Tolkein</td>
+                <td>432</td>
+                <td>
+                    <input type="checkbox">
+                </td>
+                <td>
+                    <button class='removebutton'>&times;</button>
+                </td>
+            </tr>
+            -->
+        </table>
+        <div id='instructions'>
+            <h3>Add new books to track your progress!</h3>
+        </div>
+        <div class='modal'>
+            <div class='modal-content'>
+                <div class='modal-header'>
+                    <h1 class='new-book-header'>New Book</h1>
+                    <span class='close'>&times;</span>
+                </div>
+                <form class='form'>
+                    <ul>
+                        <li>
+                            <label for="title">Title</label>
+                            <input required placeholder="Enter the book title" type="text" id="title">
+                        </li>
+                        <li>
+                            <label for="author">Author</label>
+                            <input required placeholder="Enter author name" type="text" id="author">
+                        </li>
+                        <li>
+                            <label for="pageno">Number of Pages</label>
+                            <input required placeholder="Enter the number of pages" type="number" id="pageno">
+                        </li>
+                        <label>Have you read this book?</label>
+                        <li class='radio-list'>
+                            <input type="radio" name="read" id='haveread' required>
+                            <Label for="read">Yes</Label>
+                            <input type="radio" name="read">
+                            <Label for="notread">No</Label>
+                        </li>
+                        <input type='submit' class='submit-button' value='Submit'>
+                    </ul>                    
+                </form>                
+            </div>
+        </div>
+    </main>
+
+</body>
+<script src='libraryscript.js'></script>

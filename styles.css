@@ -1,0 +1,196 @@
+body {
+    background-color: rgb(245,245,245);
+    margin: auto;
+    font-family: "lato", sans-serif;
+}
+
+main {
+    margin: 40px auto;
+    width: 60%;
+    background-color: white;
+    min-width: 40rem;
+    max-width: 60rem;
+    background-color: #fff;
+    padding: 0 2rem 1rem 2rem;
+    box-shadow: 0px 7px 26px 0px rgba(0,0,0,0.2);
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(0, 61, 122);
+}
+
+h3{
+    margin-top: 3rem;
+    text-align: center;
+    color: rgb(25, 86, 147);
+}
+
+table{
+    font-family: "lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    border-bottom: 1px solid  rgba(25, 86, 147, .2);
+    overflow: hidden;
+    padding: 1rem 0rem;
+}
+
+th{
+    border-bottom: 1px solid  rgb(0, 61, 122);
+}
+
+td,th {
+    text-align: left;
+}
+
+.title{
+    width: 40%;
+}
+
+.author {
+    width: 30%;
+}
+
+.pages, .status {
+    width: 12.5%;
+}
+
+.remove {
+    width: 5%;
+}
+
+.removebutton{
+    background-color: white;
+    font-size: 1.25rem;
+    border: none;
+    color: red;
+}
+
+.removebutton:hover{
+    scale: 1.5;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top:0;
+    width:100%;
+    height: 100%;
+    overflow: hidden; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; 
+}
+
+.newbook {
+    border: 1px solid rgb(0, 61, 122);
+    border-radius: 2px;
+    background-color: white;
+    font-size: 1rem;
+    color:  rgb(0, 61, 122);
+    padding: .5rem;
+}
+
+.newbook:hover{
+    background-color: rgb(0, 61, 122);
+    color: white;
+}
+
+.modal-content {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    background-color: #fdfdfd;
+}
+.modal-content .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    border-bottom: 1px solid  rgb(0, 61, 122);
+}
+.modal-content .modal-header h1 {
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+.modal form, .modal form ul, .modal form li, .modal form label, .modal form input{
+    display: block;
+}
+
+.modal form label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.modal form input {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-right: 6px;
+}
+
+.modal form .radio-list, .modal form .radio-list label, .modal form .radio-list input{
+    display: flex;
+    align-items: left;
+    width: auto
+}
+
+.submit-button{
+    margin-top: 20px;
+    border: 1px solid rgb(0, 61, 122);
+    border-radius: 2px;
+    background-color: white;
+    font-size: 1.15rem;
+    color:  rgb(0, 61, 122);
+    padding: .5rem;
+}
+
+.submit-button:hover{
+    background-color: rgb(0, 61, 122);
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+.close:hover {
+    scale: 1.25;
+    cursor: pointer;
+}
+
+#instructions {
+    display: none;
+}
+
+
+
+  
+  
+
+
+
+
+
